@@ -25,7 +25,6 @@ export const InfiniteQueriesPage = () => {
       }
     }
   })
-
   if (isLoading) {
     return <h2>Loading...</h2>
   }
